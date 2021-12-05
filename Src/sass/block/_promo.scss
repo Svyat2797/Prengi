@@ -1,0 +1,51 @@
+.promo {
+    height: 700px;
+    background: url('../../img/prengi/Promo.png') center center/cover no-repeat;
+    padding-top: 39px;
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu {
+        display: flex;
+        list-style: none;
+        :nth-child(5){
+            margin-right: 0;
+        }
+        li {
+            margin-right: 40px;
+        }
+        a {
+            font-size: 13px;
+            line-height: 26px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        
+    }
+    &__title {
+        margin-top: 133px;
+        width: 530px;
+        font-size: 42px;
+        line-height: 48px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+    &__subtitle {
+        margin-top: 27px;
+        width: 430px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+        color: #ffffff;
+        span {
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+    &__btn {
+        margin-top: 39px;
+    }
+}

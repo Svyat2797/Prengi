@@ -1,0 +1,33 @@
+.country {
+    min-height: 100px;
+    padding: 20px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(200px, 1fr));
+        column-gap: 33px;
+        grid-auto-columns: minmax(200px, 1fr)
+    }
+    &__block {
+        display: grid;
+        grid-template-columns: 28px 1fr;
+        column-gap: 11px;
+    }
+    &__icon {
+        img {
+            width: 28px;
+            height: 21px;
+            object-fit: cover;
+        }
+    }
+    &__name {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #242424;
+    }
+    &__contacts {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+}

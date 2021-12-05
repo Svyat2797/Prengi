@@ -1,0 +1,63 @@
+.Benefits {
+    padding: 81px 0 80px 0;
+    
+    &__title {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #393939;
+        width: 380px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 44px;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 570px);
+        justify-content: center;
+        grid-template-rows: repeat(3, 355px);
+    }
+    &__firstblock {
+        display: flex;
+        align-items: center;
+        background: url('../../img/benefits/clock.png') center center/cover no-repeat;
+    }
+    &__secondblock {
+        display: flex;
+        align-items: center;
+        background: url('../../img/benefits/hand.png') center center/cover no-repeat;
+    }
+    &__thirdblock {
+        display: flex;
+        align-items: center;
+        background: url('../../img/benefits/map.png') center center/cover no-repeat;
+    }
+    &__fourthblock {
+        display: flex;
+        align-items: center;
+        background: url('../../img/benefits/phone.png') center center/cover no-repeat;
+    }
+    &__fifthblock {
+        display: flex;
+        align-items: center;
+        background: url('../../img/benefits/man.png')  no-repeat;
+    }
+    &__sixthblock {
+        display: flex;
+        align-items: center;
+        background: url('../../img/benefits/card.png') center center/cover no-repeat;
+    }
+    &__text {
+        font-size: 23px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        width: 350px;
+        margin: 0 auto;
+        
+        
+    }
+
+    
+}

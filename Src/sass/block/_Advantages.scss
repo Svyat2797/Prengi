@@ -1,0 +1,48 @@
+.Advantages {
+    min-height: 900px;
+    padding: 79px 0 81px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        column-gap: 30px;
+        justify-content: center;
+        margin-bottom: 50px;
+        
+    }
+    &__item, &__block {
+        border: 1px solid #ececec;
+        display: grid;
+        grid-template-rows: 160px minmax(100px, auto);
+        row-gap: 15px;
+        justify-items: center;
+        background: url('../../img/Advantages/question.png') right -17% bottom -28% no-repeat;
+    }
+    &__block {
+        background: url('../../img/Advantages/solution.png') right -12% bottom -24% no-repeat;
+    }
+    
+    &__icon {
+        text-align: center;
+    } 
+    &__text {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #393939;
+        width: 240px;
+        padding-bottom: 36px;
+        text-align: center;  
+    }
+    &__arrowdown {
+       text-align: center;
+       margin-bottom: 33px;
+    }
+    &__title {
+       text-align: center;
+       margin-bottom: 37px;
+       font-size: 48.1px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #393939;
+    }
+}
