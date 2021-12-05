@@ -26,24 +26,23 @@
             padding-right: 0;
             border-right: none;
         }
-        li {
-            margin-right: 25px;
-            padding-right: 26px;
-            border-right: 1px solid #ffffff;
-            
-
+    }
+    &__li {
+        margin-right: 25px;
+        padding-right: 26px;
+        border-right: 1px solid #ffffff;
         }
-        a {
-            font-size: 14px;
-            line-height: 25px;
-            font-weight: 400;
-            color: #ffffff;
-            text-decoration: none;
-            &:hover {
-                color: #00c2f0;
+
+    &__link {
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+            color: #00c2f0;
             }
         }
-    }
     &__photo {
         text-align: center;
     }

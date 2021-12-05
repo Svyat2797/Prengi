@@ -1,0 +1,9 @@
+.footer {
+    min-height: 497px;
+    background:#0082a1;
+    padding: 49px 0 40px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr );
+    }
+}

@@ -1,0 +1,23 @@
+.connection {
+    padding: 80px 0 80px 0;
+    min-height: 690px;
+    &__photo {
+        text-align: center;
+        margin-bottom: 74px;
+    }
+    &__subtitle {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 900;
+        color: #393939;
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    &__bt {
+        display: block;
+        margin: 0 auto;
+        
+    }
+}
