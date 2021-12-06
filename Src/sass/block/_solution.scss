@@ -43,7 +43,28 @@
             color: #00c2f0;
             }
         }
-    &__photo {
+    &__inner {
         text-align: center;
     }
+    &__wrapper {
+        position: relative;
+    }
+    .prev {
+        position: absolute;
+        border: none;
+        background:none;
+        left: 130px;
+        top:50%;
+        transform: translateY(-50%);
+        
+    } 
+    .next {
+        position: absolute;
+        border: none;
+        background:none;
+        right: 130px;
+        top:50%;
+        transform: translateY(-50%);
+       
+    } 
 }

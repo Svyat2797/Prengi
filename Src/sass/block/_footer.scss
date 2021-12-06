@@ -3,7 +3,69 @@
     background:#0082a1;
     padding: 49px 0 40px 0;
     &__wrapper {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr );
+        padding-bottom: 44px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    &__item {
+        &-first{
+            width: 370px;
+        }
+        &-second {
+            width: 264px;
+        }
+        &-third {
+            width: 118px;
+        }
+        &-fourth {
+            width: 112px;
+        }
+
+    }
+    &__subtitle {
+        font-size: 16px;
+        line-height: 19px; 
+        margin-bottom: 5px;
+        color: #ffffff;
+        font-weight: 700;
+            
+        
+    }
+    &__title {
+        font-size: 16px;
+        line-height: 19px; 
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-weight: 700;
+        
+    }
+    &__icon{
+        margin-bottom: 30px;
+    }
+    &__descr {
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__list {
+        list-style-type: none;
+        font-size: 14px;
+        line-height: 26px;
+        a {
+            color: #ffffff;
+            font-weight: 300;
+            
+        } 
+
+    }
+    &__text {
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-top: 36px;
+        text-align: center;
     }
 }
